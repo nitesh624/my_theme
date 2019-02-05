@@ -25,9 +25,8 @@
 
 
 input[type="submit"] {
-    background-color: #253746;
+    /*background-color: #253746;*/
     cursor: pointer;
-    color: #fff;
     border: 0;
     padding: 12px 30px;
     line-height: 100%;
@@ -43,3 +42,8 @@ input[type="submit"] {
     transition: all .3s;
 }
 
+
+
+#block-my-theme-local-tasks nav.tabs{
+  display: none;
+}
