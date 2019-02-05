@@ -28,7 +28,7 @@ regions:
   footer_fifth: 'Footer fifth'
 
 libraries:
+  - my_theme/bootstrap
   - my_theme/webfonts
   - my_theme/smartmenus
-  - my/academix-lib
-  - acadmix/global-styling
+  - my_theme/global-styling

@@ -5,12 +5,14 @@
 .user-login-form,
 .user-form,
 .user-pass{
-  max-width: 650px;
+  max-width: 500px;
   margin: 40px auto;
-  border: 1px solid #ddd;
-  padding: 10px 30px;
-  background: #FBFBFB;
+  border: 1px solid #e6e6e6;
+  padding: 5px 20px;
+  background: #fdfdfd;
 }
+
+
 
 .user-login-form .form-text,
 .user-login-form .form-email,
@@ -21,4 +23,23 @@
 }
 /* login form end */
 
+
+input[type="submit"] {
+    background-color: #253746;
+    cursor: pointer;
+    color: #fff;
+    border: 0;
+    padding: 12px 30px;
+    line-height: 100%;
+    margin-right: 2px;
+    display: inline-block;
+    border: 3px solid #b400ff;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
 
