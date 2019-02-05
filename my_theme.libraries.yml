@@ -1,4 +1,3 @@
-
 bootstrap:
   css:
     theme:
@@ -34,6 +33,7 @@ smartmenus:
   css:
     theme:
       includes/smartmenus/sm-core-css.css: {}
+      css/custom.css: {}
   js:
     includes/smartmenus/jquery.smartmenus.min.js: {}
   dependencies:
