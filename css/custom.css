@@ -72,21 +72,39 @@ input[type="submit"] {
 */
 
 @media screen and (min-width: 37.5em){
-.login-page-wrapper #block-my-theme-local-tasks nav.tabs .tabs ul.primary li {
+.login-page-wrapper #block-my-theme-local-tasks nav.tabs  ul.primary li {
     display: inline-block;
-    float: left;
+    float: none;
   }
-  .login-page-wrapper #block-my-theme-local-tasks nav.tabs .tabs ul.primary{
+  .login-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary{
     text-align: center;
     background: none;
   }
 }
 
-.login-page-wrapper #block-my-theme-local-tasks nav.tabs .tabs ul.primary li{
+.login-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary li{
       border-radius: 6px;
       background-color: #757f842e;
 }
 
-.login-page-wrapper #block-my-theme-local-tasks nav.tabs .tabs ul.primary li:first-child{
+.login-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary li:first-child{
   display: none;
 } 
+
+.login-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary li a{
+  background-color: #757f842e;
+  border-radius: 6px;
+  border-style: solid;
+  text-shadow: none; 
+}
+
+.login-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary li a:hover{
+  background-color: #656b6ff2;
+  color: #ffffff;
+  text-shadow: none;
+  -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
+}
