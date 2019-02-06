@@ -61,6 +61,6 @@ input[type="submit"] {
     background-size: cover;
 */
 
-/*#block-my-theme-local-tasks nav.tabs{
+.login-page-wrapper #block-my-theme-local-tasks nav.tabs{
   display: none;
-}*/
+}
