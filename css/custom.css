@@ -71,18 +71,16 @@ input[type="submit"] {
 }
 */
 
-@media screen and (min-width: 37.5em){
-.login-page-wrapper #block-my-theme-local-tasks nav.tabs  ul.primary li {
-    display: inline-block;
-    float: none;
-  }
-  .login-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary{
-    text-align: center;
-    background: none;
-  }
+
+/*login page start*/
+.login-page-wrapper{
+    background: url(../img/event.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.login-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary li{
+.login-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary li {
       border-radius: 6px;
       background-color: #757f842e;
 }
@@ -108,3 +106,72 @@ input[type="submit"] {
     transition: all 0.5s;
 
 }
+
+@media screen and (min-width: 37.5em){
+  .login-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary {
+    text-align: center;
+    background: none;
+  }
+
+  .login-page-wrapper #block-my-theme-local-tasks nav.tabs  ul.primary li {
+      display: inline-block;
+      float: none;
+    }
+
+   .login-page-wrapper #block-my-theme-content{
+    padding-bottom: 10em;
+   }
+}
+/*login page end*/
+
+
+
+
+/*register page start*/
+
+
+.register-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary li {
+      border-radius: 6px;
+      background-color: #757f842e;
+}
+
+.register-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary li:nth-child(2){
+  display: none;
+} 
+
+.register-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary li a{
+  background-color: #757f842e;
+  border-radius: 6px;
+  border-style: solid;
+  text-shadow: none; 
+}
+
+.register-page-wrapper  #block-my-theme-local-tasks nav.tabs ul.primary li a:hover{
+  background-color: #656b6ff2;
+  color: #ffffff;
+  text-shadow: none;
+  -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.register-page-wrapper .page-title{
+  text-align: center;
+}
+
+
+@media screen and (min-width: 37.5em){
+
+  .register-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary {
+      text-align: center;
+      background: none;
+    }
+
+  .register-page-wrapper #block-my-theme-local-tasks nav.tabs  ul.primary li {
+      display: inline-block;
+      float: none;
+    }
+}
+/*register page start*/
+
