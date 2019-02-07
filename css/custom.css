@@ -78,6 +78,7 @@ input[type="submit"] {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .login-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary li {
@@ -133,6 +134,7 @@ input[type="submit"] {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .register-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary li {
