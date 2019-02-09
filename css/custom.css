@@ -224,7 +224,7 @@ body .lh_20{
   border: 1px solid #e6e6e6;
   padding: 5px 20px;
   /*background: #fdfdfd;*/
-  background-color: #696b6d42;
+  background-color: #d6dce275;
 }
 .user-login-form{
  /*      background: url(../img/event.jpg);
@@ -298,7 +298,6 @@ input[type="submit"] {
 
 .login-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary li {
       border-radius: 6px;
-      background-color: #757f842e;
 }
 
 .login-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary li:first-child{
@@ -306,7 +305,8 @@ input[type="submit"] {
 } 
 
 .login-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary li a{
-  background-color: #757f842e;
+/*  background-color: #757f842e;
+  background-color: #d6dce275;*/
   border-radius: 6px;
   border-style: solid;
   text-shadow: none; 
