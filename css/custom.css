@@ -305,10 +305,10 @@ input[type="submit"] {
   text-shadow: none;
 } 
 
-.login-page-wrapper .user-login-form #edit-actions{
+/*.login-page-wrapper .user-login-form #edit-actions{
   text-align: center;
 }
-
+*/
 
 @media screen and (min-width: 37.5em){
   .login-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary {
@@ -374,9 +374,9 @@ input[type="submit"] {
   text-align: center;
 }
 
-.register-page-wrapper .user-register-form #edit-actions{
+/*.register-page-wrapper .user-register-form #edit-actions{
   text-align: center;
-}
+}*/
 @media screen and (min-width: 37.5em){
 
   .register-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary {
@@ -435,9 +435,6 @@ input[type="submit"] {
   text-shadow: none;
 } 
 
-.password-page-wrapper .user-pass #edit-actions{
-  text-align: center;
-}
 
 
 @media screen and (min-width: 37.5em){
