@@ -305,10 +305,13 @@ input[type="submit"] {
   text-shadow: none;
 } 
 
-/*.login-page-wrapper .user-login-form #edit-actions{
+.login-page-wrapper .user-login-form #edit-actions{
   text-align: center;
 }
-*/
+
+.login-page-wrapper .page-title{
+  text-align: center;
+}
 
 @media screen and (min-width: 37.5em){
   .login-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary {
@@ -388,6 +391,10 @@ input[type="submit"] {
       display: inline-block;
       float: none;
     }
+
+    .register-page-wrapper #block-my-theme-content{
+    padding-bottom: 10em;
+   }
 }
 /*register page end*/
 
@@ -435,6 +442,9 @@ input[type="submit"] {
   text-shadow: none;
 } 
 
+.password-page-wrapper .page-title{
+  text-align: center;
+}
 
 
 @media screen and (min-width: 37.5em){
