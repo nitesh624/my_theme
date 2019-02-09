@@ -193,10 +193,12 @@ input[type="submit"] {
 
 form#views-exposed-form-grid-of-search-content-page-1 .form-actions{
   display: inline-block;
+  padding-top: 0px;
 }
 
 form#views-exposed-form-multi-filter-search-page-1 .form-actions{
   display: inline-block;
+  padding-top: 15px;
 }
 
 
