@@ -186,5 +186,23 @@ input[type="submit"] {
       float: none;
     }
 }
-/*register page start*/
+/*register page end*/
+
+
+/*search form start*/
+
+form#views-exposed-form-grid-of-search-content-page-1 .form-actions{
+  display: inline-block;
+}
+
+form#views-exposed-form-multi-filter-search-page-1 .form-actions{
+  display: inline-block;
+}
+
+
+input#edit-submit-grid-of-search-content, input#edit-submit-multi-filter-search{
+  padding: 5px 20px;
+}
+
+/*search form end*/
 
