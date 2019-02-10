@@ -287,6 +287,10 @@ input[type="submit"] {
   line-height: inherit;
   color: #403c3c;
   font-weight: 600;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
 }
 
 .login-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary li a:hover{
@@ -355,6 +359,10 @@ input[type="submit"] {
   line-height: inherit;
   color: #403c3c;
   font-weight: 600;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
 }
 
 .register-page-wrapper  #block-my-theme-local-tasks nav.tabs ul.primary li a:hover{
@@ -423,6 +431,10 @@ input[type="submit"] {
   line-height: inherit;
   color: #403c3c;
   font-weight: 600;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transition: all 0.7s;
 }
 
 .password-page-wrapper #block-my-theme-local-tasks nav.tabs ul.primary li a:hover{
